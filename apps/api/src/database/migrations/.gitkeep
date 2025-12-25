@@ -1,0 +1,3 @@
+// Database migrations will be generated here using TypeORM CLI
+// Example: npm run migration:generate -- -n CreateUsersTable
+export {};
