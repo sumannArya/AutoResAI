@@ -1,8 +1,11 @@
+import Navbar from "@/components/navbar/Navbar";
+import Hero from "@/components/hero/Hero";
+
 export default function HomePage() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-24">
-      <h1 className="text-4xl font-bold">AutoResume AI</h1>
-      <p className="mt-4 text-xl">AI-powered resume optimization and job matching</p>
-    </main>
+    <>
+      <Navbar />
+      <Hero />
+    </>
   );
 }

@@ -1,9 +1,8 @@
-import type { Metadata } from 'next';
-import './globals.css';
+import "./globals.css";
 
-export const metadata: Metadata = {
-  title: 'AutoResume AI',
-  description: 'AI-powered resume optimization and job matching',
+export const metadata = {
+  title: "AutoResume AI",
+  description: "Advanced AI Resume Parser",
 };
 
 export default function RootLayout({
@@ -13,7 +12,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="min-h-screen bg-white text-black">
+        {children}
+      </body>
     </html>
   );
 }
